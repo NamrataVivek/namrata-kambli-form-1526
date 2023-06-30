@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #DDD ;
+    border-width: thin;
+}
+
+fieldset {
+    background-color: rgb(244, 243, 243) ;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #DDD ;
+    border-width: thin;
+
+}
+.full_name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+#fullname {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 0.4rem;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #DDD ;
+    border-width: thin;
+    box-sizing: border-box;
+}
+
+.email_address {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 0.4rem;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #DDD ;
+    border-width: thin;
+    box-sizing: border-box;
+}
+
+.message {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;   
+}
+#message {
+    width: 100%;
+    padding: 16px 20px;
+    margin: 8px 0;
+    margin-top: 0.4rem;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #DDD ;
+    border-width: thin;
+    box-sizing: border-box;
+}
+input[type=button]{
+    background-color: #6495ED;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 0.4rem;
+    border-radius: 3px;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 1.3rem;
+}
+input[type=button]:hover {
+    background-color: #3d7df5;
+}
+
+/* smart-phones upto 25 rem */
+@media only screen and (max-width: 25rem) {
+
+    fieldset {
+        margin: auto;
+
+    }
+
+    }
+@media only screen and (min-width: 25rem){
+
+    .fullname_Email {
+        margin-top: 2rem;
+        gap: 0.8rem;
+        display: flex;
+    }
+    
+    #submit-button{
+        width: 160px;
+
+    }
+    #fullname{
+        width: 290px;
+    }
+    #email {
+        width: 290px;
+    }
+    fieldset {
+        margin: auto;
+
+
+    }
+}
+@media only screen and (min-width:40rem){
+
+    .fullname_Email {
+        margin-top: 2rem;
+        display: flex;
+    }
+
+    fieldset {
+        max-width: 50rem;
+        margin: auto;
+    }
+    #submit-button{
+        width: 160px;
+    }
+
+    #fullname{
+        width: 390px;
+    }
+    #email {
+        width: 390px;
+    }
+
+  
+    
+   
+}
+
